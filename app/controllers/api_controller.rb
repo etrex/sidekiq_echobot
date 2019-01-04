@@ -15,8 +15,8 @@ class ApiController < ApplicationController
 
   def client
     @client ||= Line::Bot::Client.new do |config|
-      config.channel_secret = 'f33d45875141b3f6487e924ffb56cc6f'
-      config.channel_token = '7FZ71IX0suKIqsSy4MKqjKB7mHrhdsjj6Q4OicDyukDI6nANs75LBTeow1SsYhZ6Pxs/eTAkcKqAqnXg/9y1xWiLzpyS38+46jlkqJTNMnxuHUzmXGAUpoDEDbYDU/Rp35QeD3TVv5MTzCzXfIvNmAdB04t89/1O/w1cDnyilFU='
+      config.channel_secret = '17c2cf1210359c88717382639af3a254'
+      config.channel_token = '+dzgFDh3k+POoBx/h/d6i2nu6bCMHRQw1bu3pYHxpdMW+KHTfAhzbI7TF0K4RSidsW3Zal71Iw3tQ+U4NEZ3ycKYyxVLypDt6j9xVUHVC3thnxD8cR27jIKatJAnOIU+IpGeZdWfY7BAm80p1OJCPQdB04t89/1O/w1cDnyilFU='
     end
   end
 
