@@ -9,7 +9,8 @@ class ReplyMessageJob < ApplicationJob
       type: 'text',
       text: event.message
     }
-    client.reply_message(event.reply_token, message)
+    response = client.reply_message(event.reply_token, message)
+    pp response
   end
 
   private
