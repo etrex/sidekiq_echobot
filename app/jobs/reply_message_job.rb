@@ -10,7 +10,8 @@ class ReplyMessageJob < ApplicationJob
       text: event.message
     }
     response = client.reply_message(event.reply_token, message)
-    pp response
+    pp event
+    pp response.body
   end
 
   private
